@@ -1,0 +1,23 @@
+[33mcommit 7cb58476fb26347af2670ed049d369762f9c6e3f[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: milkyhe <372691118@qq.com>
+Date:   Wed Sep 27 17:50:48 2017 +0800
+
+    根据传入的地址和类型从服务器上查询省市县数据
+
+[33mcommit 73a345723463312d986fdf4c295b172b5ad944f2[m
+Author: milkyhe <372691118@qq.com>
+Date:   Wed Sep 27 11:24:44 2017 +0800
+
+    加入创建数据库和表的各项配置
+
+[33mcommit 3139a91209a5b35e6b03fa43b7ee46cf2d06f5ab[m
+Author: milkyhe <372691118@qq.com>
+Date:   Wed Sep 27 11:00:40 2017 +0800
+
+    第一次提交到github
+
+[33mcommit af6ff0782a3c8f049d1be389a1c1812ed00acf87[m
+Author: milkyhe <734299673@qq.com>
+Date:   Wed Sep 27 10:54:28 2017 +0800
+
+    Initial commit
