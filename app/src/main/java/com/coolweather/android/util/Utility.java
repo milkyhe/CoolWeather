@@ -70,12 +70,11 @@ public class Utility {
      */
     public static boolean handleCountyResponse(String response,int cityId){
         if (!TextUtils.isEmpty(response))
-        {
             try {
 
                 JSONArray allCounties = new JSONArray(response);
 
-                for (int i = 0; i <allCounties.length() ; i++)
+                for (int i = 0; i < allCounties.length(); i++)
 
                 {
                     JSONObject countyObject = allCounties.getJSONObject(i);
@@ -86,14 +85,11 @@ public class Utility {
                     county.save();
                 }
                 return true;
-            }
-            catch (JSONException e)
-            {
+            } catch (JSONException e) {
                 e.printStackTrace();
+                return false;
 
             }
-
-        }
         return false;
     }
 
